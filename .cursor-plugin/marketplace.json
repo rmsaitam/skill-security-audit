@@ -1,0 +1,16 @@
+{
+  "name": "security-audit",
+  "owner": {
+    "name": "Security Audit contributors"
+  },
+  "metadata": {
+    "description": "Security Audit skill for AI coding agents."
+  },
+  "plugins": [
+    {
+      "name": "security-audit",
+      "source": ".",
+      "description": "Audits project security against OWASP Top 10 and CWE, scores findings with CVSS, and produces a validated SECURITY-AUDIT.md report with remediation guidance."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "security-audit",
+  "version": "0.1.0",
+  "description": "Audits project security against OWASP Top 10 and CWE, scores findings with CVSS, and produces a validated SECURITY-AUDIT.md report with remediation guidance.",
+  "author": {
+    "name": "Security Audit contributors",
+    "url": "https://github.com/rmsaitam/skill-security-audit"
+  },
+  "homepage": "https://github.com/rmsaitam/skill-security-audit",
+  "repository": "https://github.com/rmsaitam/skill-security-audit",
+  "license": "MIT",
+  "keywords": [
+    "security",
+    "security-audit",
+    "owasp",
+    "cwe",
+    "cvss",
+    "vulnerability",
+    "sast",
+    "pentest",
+    "appsec"
+  ]
+}

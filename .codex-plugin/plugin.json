@@ -1,0 +1,46 @@
+{
+  "name": "security-audit",
+  "version": "0.1.0",
+  "description": "Audits project security against OWASP Top 10 and CWE, scores findings with CVSS, and produces a validated SECURITY-AUDIT.md report with remediation guidance.",
+  "author": {
+    "name": "Security Audit contributors",
+    "url": "https://github.com/rmsaitam/skill-security-audit"
+  },
+  "homepage": "https://github.com/rmsaitam/skill-security-audit",
+  "repository": "https://github.com/rmsaitam/skill-security-audit",
+  "license": "MIT",
+  "keywords": [
+    "security",
+    "security-audit",
+    "owasp",
+    "cwe",
+    "cvss",
+    "vulnerability",
+    "sast",
+    "pentest",
+    "appsec"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Security Audit",
+    "shortDescription": "Audit a project and generate a security report",
+    "longDescription": "Run a scoped, evidence-based security audit against OWASP Top 10 and CWE, score findings with CVSS, and produce SECURITY-AUDIT.md with severity, affected code, evidence, remediation, and deployment readiness. Static and manual review are the default; active testing requires explicit written authorization.",
+    "developerName": "Security Audit contributors",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/rmsaitam/skill-security-audit",
+    "defaultPrompt": [
+      "Audit this project and generate SECURITY-AUDIT.md",
+      "Review this codebase for OWASP Top 10 and CWE findings",
+      "Validate my SECURITY-AUDIT.md report"
+    ],
+    "brandColor": "#B91C1C",
+    "composerIcon": "./assets/icon.svg",
+    "logo": "./assets/logo.svg",
+    "screenshots": []
+  }
+}

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Security Audit">
+  <rect width="512" height="512" rx="112" fill="#B91C1C"/>
+  <path d="M256 78l150 56v104c0 92-62 166-150 196-88-30-150-104-150-196V134z" fill="#FFFFFF"/>
+  <circle cx="238" cy="232" r="62" fill="none" stroke="#991B1B" stroke-width="22"/>
+  <path d="M282 276l62 62" fill="none" stroke="#991B1B" stroke-width="24" stroke-linecap="round"/>
+  <path d="M208 232l22 22 42-46" fill="none" stroke="#DC2626" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

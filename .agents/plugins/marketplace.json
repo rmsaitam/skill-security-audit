@@ -1,0 +1,21 @@
+{
+  "name": "security-audit",
+  "interface": {
+    "displayName": "Security Audit"
+  },
+  "plugins": [
+    {
+      "name": "security-audit",
+      "description": "Audits project security against OWASP Top 10 and CWE, scores findings with CVSS, and produces a validated SECURITY-AUDIT.md report with remediation guidance.",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}

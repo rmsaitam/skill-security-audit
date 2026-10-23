@@ -1,0 +1,4 @@
+interface:
+  display_name: "Security Audit"
+  short_description: "Audit a project and generate a security report"
+  default_prompt: "Use $security-audit to review this project and produce SECURITY-AUDIT.md."

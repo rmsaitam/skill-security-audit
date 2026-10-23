@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "security-audit",
+  "description": "Security Audit skill for AI coding agents.",
+  "owner": {
+    "name": "Security Audit contributors",
+    "url": "https://github.com/rmsaitam/skill-security-audit"
+  },
+  "plugins": [
+    {
+      "name": "security-audit",
+      "description": "Audits project security against OWASP Top 10 and CWE, scores findings with CVSS, and produces a validated SECURITY-AUDIT.md report with remediation guidance.",
+      "source": "./",
+      "category": "security"
+    }
+  ]
+}

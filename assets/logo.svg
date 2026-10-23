@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 240" role="img" aria-label="Security Audit">
+  <rect width="800" height="240" rx="32" fill="#B91C1C"/>
+  <path d="M64 58l78 29v54c0 48-32 86-78 102-46-16-78-54-78-102V87z" fill="#FFFFFF"/>
+  <circle cx="64" cy="132" r="32" fill="none" stroke="#991B1B" stroke-width="11"/>
+  <path d="M87 155l32 32" fill="none" stroke="#991B1B" stroke-width="12" stroke-linecap="round"/>
+  <path d="M49 132l11 11 21-23" fill="none" stroke="#DC2626" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="172" y="122" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="50" font-weight="700">Security Audit</text>
+  <text x="174" y="162" fill="#FECACA" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="500">Evidence-based vulnerability reports</text>
+</svg>
