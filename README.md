@@ -27,7 +27,10 @@ All agents use the shared skill at `skills/security-audit/SKILL.md` and the comm
 ### skills.sh
 
 ```bash
+# Install into the current project after choosing the agents interactively
 npx skills add rmsaitam/skill-security-audit
+
+# Install globally into the user home config for every project, skipping prompts
 npx skills add rmsaitam/skill-security-audit -g -y
 ```
 
